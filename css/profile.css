@@ -1,0 +1,91 @@
+/* general */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #111d4a;
+}
+.whitec {
+    color: white;
+}
+.white {
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+
+/* header for different anchor tag */
+header {
+    width: 99.3%;
+    height: 7vh;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: rgb(10, 10, 30);
+    font-size: 1.5rem;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+/* data representation for the hero */
+main {
+    width: 80%;
+    height: 80vh;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+}
+
+main > div {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+/* box for hero name */
+#hero-name {
+    height: 15%;
+    font-size: 300%;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+/* box for hero image */
+#hero-img {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+#hero-img img {
+    height: 95%;
+    width: 95%;
+}
+
+/* box for hero detail */
+#hero-detail {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#hero-detail span {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 2px;
+    background-color: pink;
+}
+/* common class for making all letters bold */
+.ques {
+    height: 100%;
+}
